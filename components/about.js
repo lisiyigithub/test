@@ -1,7 +1,6 @@
 import React from 'react'
-import url from '../img/main.jpg'
 
-class Home extends React.Component{
+class About extends React.Component{
 	constructor(props){
 		super(props)
 	}
@@ -9,9 +8,9 @@ class Home extends React.Component{
 	render(){
 		return(
 			<div>
-				<h1>Home组件</h1>
+				<h1>about</h1>
 			</div>
 		)
 	}
 }
-export default Home;
+export default About;
